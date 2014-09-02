@@ -1,0 +1,18 @@
+﻿整体架构MEAN：Node.js Express AngularJS MongoDB
+IDE sublime text 2
+代码管理 github
+
+NODEJS安装
+	http://www.nodejs.org/download/ 下载最新NODEJS的版本并安装。
+EXPRESS安装
+	Npm install –g express-generator
+Quick Start
+	Express demo && cd demo
+	Npm install
+	Npm start
+
+Supervisor安装
+	Npm install –g supervisor
+	启动supervisor app.js 或者配置到package.json中"scripts": {"start": "supervisor ./app"}
+
+快速启动管理员CMD，WIN，搜索cmd，crtl+shift+enter。
