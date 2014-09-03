@@ -31,3 +31,5 @@ Supervisor安装
 Express use get 的区别。
 
 JS引入的先后顺序也很重要，被依赖的JS应该先引入。
+
+express 4.X API参考文档：http://www.90it.net/expressjs-4-api-zh-cn-application.html

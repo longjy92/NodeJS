@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var db = mongoose.createConnection('localhost', 'test');
+var db = mongoose.createConnection('localhost', 'mydb');
 //console.log(db);
 var PollSchema = require('../models/Poll.js').PollSchema;
 var Poll = db.model('polls', PollSchema);
