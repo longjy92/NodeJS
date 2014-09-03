@@ -1,6 +1,17 @@
 ﻿整体架构MEAN：Node.js Express AngularJS MongoDB
-IDE sublime text 2
-代码管理 github
+其他工具 IDE-sublime text 2 代码管理-github 前端CSS/HTML框架-Bootstrap
+
+前端 Angular + Bootstrap + Jade
+
+后台 Node.js + Express + Mongoose
+
+数据库 MongoDB
+
+
+环境安装
+Angular,Bootstrap通过文件引入
+Express,Jade,Mongoose在依赖中写入
+Node.js,MongoDB需要安装 
 
 NODEJS安装
 	http://www.nodejs.org/download/ 下载最新NODEJS的版本并安装。
@@ -16,3 +27,7 @@ Supervisor安装
 	启动supervisor app.js 或者配置到package.json中"scripts": {"start": "supervisor ./app"}
 
 快速启动管理员CMD，WIN，搜索cmd，crtl+shift+enter。
+
+Express use get 的区别。
+
+JS引入的先后顺序也很重要，被依赖的JS应该先引入。
